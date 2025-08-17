@@ -24,11 +24,4 @@ This project provides subscription management, authentication, and an extendable
 ## 👨‍💻 Developer
 
 Havi Jani
-
 Backend Developer (Python / Django)
-
-📧 Email: havi.jani@example.com
-
-🌐 GitHub: github.com/havijani
-
-💼 LinkedIn: linkedin.com/in/havijani
