@@ -24,4 +24,5 @@ This project provides subscription management, authentication, and an extendable
 ## 👨‍💻 Developer
 
 Havi Jani
+
 Backend Developer (Python / Django)
