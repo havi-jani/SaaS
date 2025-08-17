@@ -15,7 +15,7 @@ This project provides subscription management, authentication, and an extendable
 
 ## 🏗️ Tech Stack
 - **Backend:** Django
-- **Frontend:** HTML / TailwinCSS
+- **Frontend:** HTML / TailwindCSS
 - **Database:** PostgreSQL 
 - **Payment Gateway:** Stripe 
 
