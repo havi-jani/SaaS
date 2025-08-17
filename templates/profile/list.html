@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}{{block.super}} - List {% endblock title %}
+
+
+
+{% block content %} 
+
+{% if perms.auth %}
+{% if perms.auth.view_user %}
+
+
+<div>   
+    
+    <ul style="list-style-type:circle" class="pl-8" >
+        {% for data in list  %}
+        <li><a href="{% url 'profile' data.username %}">{{ data.username }}</a></li> 
+        {% endfor %}
+    </ul>
+   
+</div>
+{% else %}
+
+<h3>You are Not allowed to See</h3>
+{% endif %}
+
+
+{% endif %}
+{% endblock content %}
+

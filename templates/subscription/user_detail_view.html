@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{block.super}} - Subscription Details {% endblock title %}
+
+
+
+{% block content %} 
+
+
+<h1 class="text-lg font-medium"> Your Subscriptiton </h1>
+
+<form action="" method="post">
+    {% csrf_token %}
+<button type="submit">Refresh</button>
+</form>
+
+<a href="{{ subscription_data.get_cancel_url }}">Cancel membership</a>
+
+<p> Plan Name : {{ subscription_data.plan_name }}</p>
+<p> Status : {{ subscription_data.status | title }}</p>
+<p> Membarship Age : {{ subscription_data.original_period_start | timesince }}</p>
+<p> Start : {{ subscription_data.current_period_start }}</p>
+<p> End : {{ subscription_data.current_period_end | timeuntil }} ({{ subscription_data.current_period_end }})</p>
+
+{% endblock content %}
+

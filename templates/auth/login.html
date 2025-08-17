@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}{{block.super}} - Login{% endblock title %}
+
+{% block content %} 
+<br><br>
+<center>
+<form method="post" action="/login/">
+{% csrf_token %}
+    Name : 
+    <input type="text" name="name"> <br><br>
+
+    Password : 
+    <input type="password" name="pass"><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+<a href="/register/"> Create New Account</a>
+
+{% include "auth/auth.html" %}
+</center>
+{% endblock content %}
+

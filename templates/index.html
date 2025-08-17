@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}{{block.super}} - Homepage{% endblock title %}
+
+
+
+{% block content %} 
+
+{{ msg }}
+<br>
+
+{% comment %} <form action="" method="post">
+    Name : 
+    <input type="text" name="name">
+    <input type="submit" value="Submit">
+</form> {% endcomment %}
+
+Name : {{ count }}
+
+{% include "auth/auth.html" %}
+{% endblock content %}
+
