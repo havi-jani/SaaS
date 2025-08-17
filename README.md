@@ -1,6 +1,6 @@
 # 🚀 SaaS Application
 
-A modern, scalable Software-as-a-Service (SaaS) application built with [Your Tech Stack – e.g., Django, React, Stripe].  
+A modern, scalable Software-as-a-Service (SaaS) application built with Django, Stripe.  
 This project provides subscription management, authentication, and an extendable architecture for building SaaS products.
 
 ---
