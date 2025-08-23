@@ -7,7 +7,7 @@ This project provides subscription management, authentication, and an extendable
 
 ## ✨ Features
 - 🔐 User Authentication & Authorization (Login, Register)
-- 💳 Subscription & Payment Integration (Stripe/Razorpay/PayPal)
+- 💳 Subscription & Payment Integration (Stripe)
 - 📊 Admin Dashboard 
 - 📦 Modular & Scalable Codebase
 
