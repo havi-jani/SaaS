@@ -6,7 +6,7 @@ This project provides subscription management, authentication, and an extendable
 ---
 
 ## ✨ Features
-- 🔐 User Authentication & Authorization (Login, Register, JWT/Session)
+- 🔐 User Authentication & Authorization (Login, Register)
 - 💳 Subscription & Payment Integration (Stripe/Razorpay/PayPal)
 - 📊 Admin Dashboard 
 - 📦 Modular & Scalable Codebase
